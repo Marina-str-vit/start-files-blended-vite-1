@@ -1,4 +1,4 @@
-import formatDateToNow from '../../heipers/formatDateToNow';
+import formatDateToNow from '../../helpers/formatDateToNow';
 import styles from './BlogCard.module.css'
 
 const BlogCard = ({tag, poster, title, description, userName, avatar, postedAt}) => {
