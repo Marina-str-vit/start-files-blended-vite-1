@@ -15,7 +15,6 @@ const ForbesList = ({list}) => {
 
   <ul className={style.list}>
   {list.map((item) => (
-
     <li key={item.id} className={style.item}>
     <ForbesListItem {...item}/>
     </li>
