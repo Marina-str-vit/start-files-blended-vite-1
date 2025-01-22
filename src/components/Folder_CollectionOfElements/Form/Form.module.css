@@ -1,0 +1,13 @@
+.form {
+  display: flex;
+  gap: 4px;
+}
+
+.field {
+  font: inherit;
+  padding: 4px;
+}
+
+.btn {
+  border: 1px solid;
+}

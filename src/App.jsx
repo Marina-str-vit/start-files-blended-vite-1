@@ -9,6 +9,8 @@ import article from './data/article.json';
 import stats from './data/stats.json';
 import forbes from './data/forbes.json';
 import transactions from './data/transactions.json'
+// import tasks from './data/tasks.json'
+import CollectionOfElements from './components/Folder_CollectionOfElements/CollectionOfElements/CollectionOfElements';
 
 
 export const App = () => {
@@ -38,6 +40,7 @@ export const App = () => {
         <Heading title="Task 4 Crypto history" top bottom />
 
         <CryptoHistory items={transactions}/>
+        <CollectionOfElements />
       </Container>
     </Section>
   );
