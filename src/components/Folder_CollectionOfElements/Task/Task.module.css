@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* gap: 12px; */
+  background-color: papayawhip;
   margin-bottom: 12px;
 }
 
@@ -15,4 +15,7 @@
 
 .btn {
   border: 1px solid;
+  border-radius: 4px;
+  padding: 0 10px;
+  background-color: #ffffff;
 }
